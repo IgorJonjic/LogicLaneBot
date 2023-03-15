@@ -11,10 +11,10 @@ It can easily be extended to recognize more intents just by adding more intents 
 
 1. Create conda environment from environment.yml file or make python venv from requirements.txt
 
-# For demo:
+For demo:
 1. run main.py
 
-# For extending bot capabilities:
+For extending bot capabilities:
 1. add new intents to intents.json
 2. run preproces_bow.py
 3. run main.py
