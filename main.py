@@ -57,25 +57,21 @@ def get_response(intents_list: list, intents_json: json) -> str:
             result=random.choice(i['responses'])
             break
         else:
-            result = "Oprosti, ne razumijem. Preformulirajte pitanje pa me opet pitajte."
+            result = "Sorry I dont understand. Can you please rephrase your question?"
     return result
 
 
 
-file = open('povijest.txt', 'a+', encoding='utf-8')
-lista_upita = []
-
-print("Chatbot Online......za kraj razgovora napiši: ajd bok")
+print("Chatbot Online......to end converastion write: /exit")
 while True:
     message = input("") 
-    lista_upita.extend("Korisnik: " + message + "\n")
-    if message == "ajd bok":
+    
+    if message == "/exit":
         break   
     ints = predict_class(message)
     res = get_response(ints, intents)
     print("LogicLaneBot: " + res)
-    lista_upita.extend("LogicLaneBot: " + res + "\n" + "---------------------------------------\n") 
+
         
-file.writelines(lista_upita)
-file.close()
-print("DONE!")  
+
+print("DONE")
