@@ -1,6 +1,6 @@
 # LogicLaneBot
 
-This repository is a showcase of artificial inteligence and natural language processing.
+This repository is a showcase of artificial intelligence and natural language processing.
 It contains chatbot model that is trained to recognize intents of users and respond correctly.
 For this small demo bot understands greetings and goodbyes as well as users moods and will respond accordingly.
 
