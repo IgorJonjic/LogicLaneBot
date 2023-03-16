@@ -2,7 +2,7 @@
 
 This repository is a showcase of artificial inteligence and natural language processing.
 It contains chatbot model that is trained to recognize intents of users and respond correctly.
-For this small demo bot understands greetings and goodbyes and it can respond depending if the user is feeling good or bad.
+For this small demo bot understands greetings and goodbyes as well as users moods and will respond accordingly.
 
 It can easily be extended to recognize more intents just by adding more intents in intents.json file.
 
